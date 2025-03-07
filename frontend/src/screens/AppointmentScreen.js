@@ -161,7 +161,7 @@ const AppointmentScreen = () => {
         </div>
         {appCreateError && <h4 className="appt__error">{appCreateError}</h4>}
         <div className="div__button">
-          <button onClick={handleClick}>Make RendezVous</button>
+          <button onClick={handleClick}>Make Appointment</button>
         </div>
       </div>
     </div>

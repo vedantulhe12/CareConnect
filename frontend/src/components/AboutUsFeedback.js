@@ -29,7 +29,7 @@ const AboutUsFeedback = () => {
           <div className="testimonial__person">
             <img src={photo4} />
             <section>
-              <h3>Ahmed</h3>
+              <h3>Ayan</h3>
               <p>Doctor</p>
             </section>
           </div>
@@ -44,7 +44,7 @@ const AboutUsFeedback = () => {
           <div className="testimonial__person">
             <img src={patient11} />
             <section>
-              <h3>Shahin</h3>
+              <h3>Ayush</h3>
               <p>Patient</p>
             </section>
           </div>
@@ -61,7 +61,7 @@ const AboutUsFeedback = () => {
           <div className="testimonial__person">
             <img src={patient12} />
             <section>
-              <h3>Anwar</h3>
+              <h3>Aayusha</h3>
               <p>Patient</p>
             </section>
           </div>
@@ -78,7 +78,7 @@ const AboutUsFeedback = () => {
           <div className="testimonial__person">
             <img src={patient13} />
             <section>
-              <h3>Matilda</h3>
+              <h3>Aastha</h3>
               <p>Patient</p>
             </section>
           </div>

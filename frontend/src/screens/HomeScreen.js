@@ -3,12 +3,11 @@ import "./HomeScreen.css";
 import { Link, useNavigate } from "react-router-dom";
 
 //Assets
-import doctor from "../assets/doctor.jpg";
+import doctor from "../assets/abb.jpg";
 import search from "../assets/search.png";
 import bulb from "../assets/bulb.png";
 import schedule from "../assets/schedule.png";
-//import doctorPng from "../assets/doctor.png";
-import doctorPng from "../assets/medical-team.png";
+import doctorPng from "../assets/doctor.png";
 
 const HomeScreen = () => {
   const navigate = useNavigate();
@@ -37,7 +36,7 @@ const HomeScreen = () => {
             </Link>
           </div>
           <div className="doc__image">
-            <img src={doctor} alt="doctor__image" />
+            <img src={doctor} alt="abb.jpg  " />
           </div>
         </div>
         <div className="homescreen__body">
@@ -87,7 +86,7 @@ const HomeScreen = () => {
           </div>
         </div>
         <footer className="homescreen__footer">
-          <p> &copy;2022-2005 WeCare Medical Agency</p>
+          <p> &copy;Copyright @2025</p>
         </footer>
       </div>
     </div>

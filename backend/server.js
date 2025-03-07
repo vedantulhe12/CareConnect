@@ -15,6 +15,13 @@ import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import adminRouter from "./routes/adminRoutes.js";
 
 dotenv.config();
+
+const JWT_SECRET = "c6ecf28ba7bc49a92e978b845f1332618347208e76c84e3d35a85252635084be";
+console.log("JWT_SECRET:", JWT_SECRET);
+
+
+// Log the MONGO_URI for debugging
+console.log("MONGO_URI:", process.env.MONGO_URI);
 connectDB();
 const app = express();
 

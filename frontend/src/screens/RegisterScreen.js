@@ -164,27 +164,28 @@ const RegisterScreen = () => {
                 onChange={(e) => setCity(e.target.value)}
                 placeholder="Choose a city"
               >
-                <option value={""}>Choose a City</option>
-                <option value={"Casablanca"}>Casablanca</option>
-                <option value={"Fes"}>Fes</option>
-                <option value={"Tangier"}>Tangier</option>
-                <option value={"Salé"}>Salé</option>
-                <option value={"Marrakesh"}>Marrakesh</option>
-                <option value={"Meknes"}>Meknes</option>
-                <option value={"Rabat"}>Rabat</option>
-                <option value={"Oujda"}>Oujda</option>
-                <option value={"Agadir"}>Agadir</option>
-                <option value={"Laayoune"}>Laayoune</option>
-                <option value={"Tetouan"}>Tetouan</option>
-                <option value={"Mohammedia"}>Mohammedia</option>
-                <option value={"Essaouira"}>Essaouira</option>
-                <option value={"Errachidia"}>Errachidia</option>
-                <option value={"Settat"}>Settat</option>
-                <option value={"Safi"}>Safi</option>
-                <option value={"Taroudant"}>Taroudant</option>
-                <option value={"Ouarzazate"}>Ouarzazate</option>
-                <option value={"Ben Guerir"}>Ben Guerir</option>
-                <option value={"Khouribga"}>Khouribga</option>
+<option value={""}>Choose a City</option>
+<option value={"Mumbai"}>Mumbai</option>
+<option value={"Delhi"}>Delhi</option>
+<option value={"Bangalore"}>Bangalore</option>
+<option value={"Hyderabad"}>Hyderabad</option>
+<option value={"Chennai"}>Chennai</option>
+<option value={"Kolkata"}>Kolkata</option>
+<option value={"Ahmedabad"}>Ahmedabad</option>
+<option value={"Pune"}>Pune</option>
+<option value={"Jaipur"}>Jaipur</option>
+<option value={"Surat"}>Surat</option>
+<option value={"Lucknow"}>Lucknow</option>
+<option value={"Kanpur"}>Kanpur</option>
+<option value={"Nagpur"}>Nagpur</option>
+<option value={"Indore"}>Indore</option>
+<option value={"Bhopal"}>Bhopal</option>
+<option value={"Patna"}>Patna</option>
+<option value={"Vadodara"}>Vadodara</option>
+<option value={"Ludhiana"}>Ludhiana</option>
+<option value={"Agra"}>Agra</option>
+<option value={"Varanasi"}>Varanasi</option>
+
               </select>
             </div>
             <div className="username__section1">

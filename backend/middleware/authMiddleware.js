@@ -2,6 +2,8 @@ import jwt from "jsonwebtoken";
 import asyncHandler from "express-async-handler";
 import Admin from "../models/adminModel.js";
 
+const JWT_SECRET = "c6ecf28ba7bc49a92e978b845f1332618347208e76c84e3d35a85252635084be"; // Hardcoded key
+
 const protect = asyncHandler(async (req, res, next) => {
   let token;
 
@@ -12,7 +14,9 @@ const protect = asyncHandler(async (req, res, next) => {
     try {
       token = req.headers.authorization.split(" ")[1];
 
-      const decoded = jwt.verify(token, process.env.JWT_SECRET);
+      console.log("JWT_SECRET:", JWT_SECRET); // Debugging
+
+      const decoded = jwt.verify(token, JWT_SECRET);
 
       req.admin = await Admin.findById(decoded.id).select("-password");
 

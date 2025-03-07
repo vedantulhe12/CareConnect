@@ -28,7 +28,7 @@ const NavBar = ({ click }) => {
     <>
       <nav className="navbar">
         <div className="nav__logo">
-          <Link to="/">WeCare</Link>
+          <Link to="/">CareConnect</Link>
         </div>
         <ul className="navbar__links">
           <li>
